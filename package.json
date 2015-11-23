@@ -1,7 +1,7 @@
 {
   "name": "skeuomorphic-notepad-theme",
   "theme": "syntax",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "An atom theme that lets you write code on a notepad",
   "keywords": [
     "syntax",
