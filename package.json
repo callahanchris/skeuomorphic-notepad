@@ -1,0 +1,18 @@
+{
+  "name": "skeuomorphic-notepad-theme",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "An atom theme that lets you write code on a notepad",
+  "keywords": [
+    "syntax",
+    "theme",
+    "skeumorphism",
+    "skeumorphic",
+    "notepad"
+  ],
+  "repository": "https://github.com/callahanchris/skeuomorphic-notepad-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
