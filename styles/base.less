@@ -56,9 +56,6 @@ atom-text-editor, :host {
     border-color: @syntax-result-marker-color;
   }
 
-}
-
-atom-pane-container.panes {
    .gutter:last-of-type {
      border-right: 1px solid #dc4849;
      position: relative;
@@ -96,10 +93,10 @@ atom-pane-container.panes {
      background: #8189f0;
    }
 
-   .lines, .line-numbers, .gutter:last-of-type .custom-decorations {
+   .lines:first-of-type, .line-numbers, .gutter:last-of-type .custom-decorations {
      margin-top: 40px;
    }
- }
+}
 
 .comment {
   color: @gray;
