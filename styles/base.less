@@ -96,6 +96,20 @@ atom-text-editor, :host {
    .lines:first-of-type, .line-numbers, .gutter:last-of-type .custom-decorations {
      margin-top: 40px;
    }
+
+   .mini {
+     .lines {
+       margin-top: 0;
+     }
+
+     .gutter:last-of-type .custom-decorations {
+       background: none;
+     }
+
+     .line-number:after, .line:after {
+       height: 0;
+     }
+   }
 }
 
 .comment {
